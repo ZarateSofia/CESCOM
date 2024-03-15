@@ -1,0 +1,8 @@
+#usuario{
+    font-size: 10rem;
+    color: #1F63AA;
+}
+
+#nombre, #clave{
+    border-color: #1F63AA;
+}
