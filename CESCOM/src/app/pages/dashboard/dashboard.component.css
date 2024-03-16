@@ -15,3 +15,8 @@
     background-color: #1F63AA;
     font-weight: bold;
 }
+
+#fondo{
+    background-image: url('/CESCOM/src/app/images/radios.jpg');
+    background-size: 100%;
+}
