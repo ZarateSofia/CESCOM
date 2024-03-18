@@ -1,0 +1,17 @@
+#usuario{
+    font-size: 10rem;
+    color: #1F63AA;
+}
+
+#correo, #clave, #nombre, #apellido{
+    border-color: #1F63AA;
+}
+
+.form-control{
+    margin: auto;
+}
+
+#log{
+    background-color: #1F63AA;
+    font-weight: bold;
+}
