@@ -6,6 +6,6 @@ import { ClienteComponent } from './cliente/cliente.component';
 export const routes: Routes = [
     {path: '', component: DashboardComponent},
     {path: 'register', component: RegisterComponent},
-    {path: 'user', component: ClienteComponent},
+    {path: 'user', component: ClienteComponent, children:[]},
     {path:'**', redirectTo:''}
 ];
