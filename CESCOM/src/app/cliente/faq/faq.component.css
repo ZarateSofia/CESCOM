@@ -758,25 +758,25 @@
 
 
 .card-body{
-    background-color: #77bafa;
+    background-color: #2459A3;
 }
 
 .card-body h2, h5{
-    color: #191414;
+    color: #fff;
     font-weight: bold;
 }
 
 .profile .profile-overview .card-title {
-    color: #191414;
+    color: #fff;
   }
   
 
 .card-body p{
-    color: #191414;
+    color: #fff;
 }
 
 .custom-btn{
-    color: #191414;
+    color: #fff;
 }
 
 .custom-btn:hover{
@@ -789,6 +789,6 @@
 }
 
 label{
-    color: #191414;
+    color: #fff;
     font-weight: bold;
 }
