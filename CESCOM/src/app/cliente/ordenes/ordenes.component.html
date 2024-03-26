@@ -21,8 +21,11 @@
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Artista</th>
-                        <th scope="col"># Canciones</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Modelo</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Ver Más</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -33,7 +36,7 @@
                           <td>{{item.canciones}} Canciones</td>
                         </tr>
                       } @empty {
-                        
+                        <td colspan="4" class="text-center">Aún no tiene ninguna orden</td>                        
                       }
                     </tbody>
                   </table>
@@ -58,8 +61,11 @@
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Artista</th>
-                        <th scope="col"># Canciones</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Modelo</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Ver Más</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -70,7 +76,7 @@
                           <td>{{item.canciones}} Canciones</td>
                         </tr>
                       } @empty {
-                        
+                        <td colspan="4" class="text-center">Aún no tiene ninguna reparación</td>      
                       }
                     </tbody>
                   </table>

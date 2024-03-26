@@ -752,7 +752,7 @@
 /* Info Cards */
 
 .card-body{
-    background-color: #43A5F5;
+    background-color: #2459A3;
   }
   
   .card-body h5{
@@ -809,7 +809,7 @@
   .dashboard .recent-sales .table tbody td,
   .dashboard .recent-sales .table tbody th,
   .dashboard .recent-sales .table thead th{
-    background-color: #191414;
+    background-color: #2459A3;
     color: #fff;
   }
   
