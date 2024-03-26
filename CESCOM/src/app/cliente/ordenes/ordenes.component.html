@@ -1,0 +1,108 @@
+<main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Bienvenido </h1>
+    </div><!-- End Page Title -->
+  
+    <section class="section dashboard">
+      <div class="row">
+  
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+  
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+                <div class="card-body">
+                  <h5 class="card-title">Compras de Radios</h5>
+  
+                  <table class="table datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Artista</th>
+                        <th scope="col"># Canciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      @for (item of topArtistas; track item.top) {
+                        <tr>
+                          <th scope="row"><a href="#">{{item.top}}</a></th>
+                          <td>{{item.artista}}</td>
+                          <td>{{item.canciones}} Canciones</td>
+                        </tr>
+                      } @empty {
+                        
+                      }
+                    </tbody>
+                  </table>
+  
+                </div>
+  
+              </div>
+            </div><!-- End Recent Sales -->
+
+  
+          </div>
+
+          <div class="row">
+  
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+                <div class="card-body">
+                  <h5 class="card-title">Reparacion de Radios</h5>
+  
+                  <table class="table datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Artista</th>
+                        <th scope="col"># Canciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      @for (item of topArtistas; track item.top) {
+                        <tr>
+                          <th scope="row"><a href="#">{{item.top}}</a></th>
+                          <td>{{item.artista}}</td>
+                          <td>{{item.canciones}} Canciones</td>
+                        </tr>
+                      } @empty {
+                        
+                      }
+                    </tbody>
+                  </table>
+  
+                </div>
+  
+              </div>
+            </div><!-- End Recent Sales -->
+
+  
+          </div>
+        </div><!-- End Left side columns -->
+  
+      </div>
+    </section>
+
+    <!--
+    <table>
+      <tbody>
+          @for (datum of data; track datum.spotify_id) {
+            <tr>
+                <th> {{  datum["artists" ]  }}  </th>
+              <td> {{  datum["energy" ]  }}  </td>
+              <td> {{  datum["album_name" ]  }} </td>
+            </tr>
+          } @empty {
+            <tr>
+              <td colspan="4" class="text-center">Aún no hay datos</td>
+            </tr>
+          }
+      </tbody>
+  </table>
+  -->
+
+  </main><!-- End #main -->

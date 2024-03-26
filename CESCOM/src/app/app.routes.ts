@@ -4,6 +4,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { ClienteComponent } from './cliente/cliente.component';
 import { FAQComponent } from './cliente/faq/faq.component';
 import { Error404Component } from './error404/error404.component';
+import { OrdenesComponent } from './cliente/ordenes/ordenes.component';
 
 export const routes: Routes = [
     {path: '', component: DashboardComponent},
@@ -11,6 +12,7 @@ export const routes: Routes = [
     {path: 'register', component: RegisterComponent},
     {path: 'user', component: ClienteComponent, children:[
         {path: 'FAQ', component: FAQComponent},
+        {path: 'ordenes', component: OrdenesComponent}
         
     ]},
     {path:'**', redirectTo:'/404'}
