@@ -1,1 +1,57 @@
-<p>registrador works!</p>
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <h2 class="logo d-flex align-items-center">
+        <span class="d-none d-lg-block title">CESCOM</span>
+      </h2>
+    </div><!-- End Logo -->
+  
+  </header><!-- End Header -->
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" routerLink="/registrador/inventario"> <!--Collapsed es para saber que ahi esta señalado-->
+          <i class="bi bi-grid"></i>
+          <span>Inventario</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+  
+  
+      <li class="nav-item">
+        <a routerLink="/registrador/ventas" class="nav-link collapsed" data-bs-target="#charts-nav">
+          <i class="bi bi-question-circle"></i><span>Ventas</span><i></i>
+        </a>
+      </li><!-- End Charts Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" routerLink="/registrador/reparaciones"> <!--Collapsed es para saber que ahi esta señalado-->
+          <i class="bi bi-grid"></i>
+          <span>Reparaciones</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" routerLink="/registrador/clientes"> <!--Collapsed es para saber que ahi esta señalado-->
+          <i class="bi bi-grid"></i>
+          <span>Clientes</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+  
+      <li class="nav-item">
+        <a routerLink="/about" class="nav-link collapsed">
+          <i class="bi bi-box-arrow-left"></i>
+          <span>Cerrar Sesión</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+  
+    </ul>
+  
+  </aside><!-- End Sidebar-->
+
+<div>
+  <router-outlet></router-outlet>
+</div>
